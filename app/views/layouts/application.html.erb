@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Let's Whif</title>
+  <script src="https://s3.amazonaws.com/whifweb/js/jquery.min.js"></script>
+    <script src="https://s3.amazonaws.com/whifweb/js/bootstrap.min.js"></script>
+    <script src="https://s3.amazonaws.com/whifweb/js/jquery.easing.min.js"></script>	
+	<script src="https://s3.amazonaws.com/whifweb/js/jquery.scrollTo.js"></script>
+	<script src="https://s3.amazonaws.com/whifweb/js/wow.min.js"></script>
+    <!-- Custom Theme JavaScript -->
+    <script src="https://s3.amazonaws.com/whifweb/js/custom.js"></script>
+    <!--<script src="https://s3.amazonaws.com/whifweb/contactform/contactform.js"></script>-->
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="whif official website">
+    <meta name="author" content="DH">
+
+    <title>Let's Whif</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="https://s3.amazonaws.com/whifweb/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+    <!-- Fonts -->
+    <script src="https://use.fontawesome.com/40130ef5dc.js"></script>
+ <!--   <link href="https://s3.amazonaws.com/whifweb/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">-->
+	<!--<link href="https://s3.amazonaws.com/whifweb/css/animate.css" rel="stylesheet" />-->
+    <!-- Squad theme CSS -->
+    <link href="https://s3.amazonaws.com/whifweb/css/style.css" rel="stylesheet">
+	<link href="https://s3.amazonaws.com/whifweb/color/default.css" rel="stylesheet">
+  
+</head>
+<body id="page-top" data-spy="scroll" data-target=".navbar-custom">
+
+<%= yield %>
+
+</body>
+</html>
